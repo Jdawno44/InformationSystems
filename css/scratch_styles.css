@@ -1,0 +1,99 @@
+/*
+4 Style Definitions
+Styles for Font Color
+Styles for Font Family
+3 Divs Positioned and Styled
+*/
+
+body {
+    background-color: lightsteelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+Li {
+    font-size: 14px;
+    font-style: italic;
+}
+
+P{
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-size: 20px;
+}
+
+/* lightsteelblue */
+
+.common {
+    background-color: lightsteelblue;
+    border: 2px solid lightsteelblue;
+    position: absolute;
+}
+
+/* DIV 1 */
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 2px solid white;
+}
+
+/* DIV 2 */
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    font-size: smaller;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: rgb(162, 183, 211)
+}
+
+/* DIV 3 */
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+/* DIV 4 */
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    font-size: smaller;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: rgb(162, 183, 211)
+}
+
+/* DIV 5 */
+.footer{
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    z-index: 2;
+    text-align: left;
+    font-style: bold;
+    padding-top: 10px;
+    padding-left: 10px ;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    position: fixed;
+}
